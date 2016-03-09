@@ -1,6 +1,6 @@
 # STAR WARS
 
-> Star Wars quotes generator with React
+> Star Wars quotes generator with ~~~React~~ Angular
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -22,24 +22,20 @@ A generator of famous Star Wars quote !
 
 ## Features
 
-1. As a User, I want to generate a random quote.
-1. As a User, I want to see the character name of the quote.
-1. As a User, I want to generate a random quote from an available character.
+Display random quote from character, of you can specify one !
 
-## Quotes
+## Install
 
-Author and quotes are defined inside [index.js](./index.js)
+Use commands below to install and launch the website :
 
-## Just tell me what to do
-
-1. Fork the project via `github`
-1. Clone the project `git clone https://github.com/YOUR_USERNAME/starwars`
-1. Code [features](#features) in a web page with [React](https://facebook.github.io/react/)
-1. Don't forget to commit and push
+* npm install
+* npm install bower
+* grunt serve
 
 ## Don't forget
 
 **Focus on React library**
+**--> I Focus on Angular library instead **
 
 ## Licence
 

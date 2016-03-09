@@ -13,16 +13,16 @@
      'author': '- Yoda',
      'quote': 'When 900 years old, you reach… Look as good, you will not.'
    }, {
-     'author': '- Senator palpatine',
+     'author': '- Senator Palpatine',
      'quote': 'The Dark Side of the Force is the pathway to many abilities some consider to be.. Unnatural.'
    }, {
      'author': '- Count Dooku',
      'quote': 'I sense great fear in you, Skywalker. You have hate… you have anger… but you don’t use them.'
    }, {
-     'author': '- Darth vader',
+     'author': '- Darth Vader',
      'quote': 'Luke, you can destroy the Emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son.'
    }, {
-     'author': '- Princess leila',
+     'author': '- Princess Leia',
      'quote': 'Aren\'t you a little short for a storm trooper?'
    }, {
      'author': '- Yoda',
@@ -34,20 +34,20 @@
      'author': '- Yoda',
      'quote': 'Do. Or do not. There is no try.'
    }, {
-     'author': '- Obi-Wan-Kenobi',
+     'author': '- Obi-Wan Kenobi',
      'quote': 'In my experience there is no such thing as luck.'
    }, {
      'author': '- Yoda',
-     'quote': 'If once you start down the dark side, forever will it dominate your destiney, consume you it will, as it did Obi-Wan\'s apprentice'
+     'quote': 'If once you start down the dark side, forever will it dominate your destiny, consume you it will, as it did Obi-Wan\'s apprentice'
    }, {
      'author': '- Darth Vader',
      'quote': 'The Force is strong with this one.'
    }];
-   
+
  var retrievePreciseQuote = function(name){
    var specificQuotes= [];
    for (var i = 0; i < quotes.length; i++) {
-     if(quotes[i].author === name){
+     if(quotes[i].author.toUpperCase().indexOf(name.toUpperCase()) !== -1){
        specificQuotes.push(quotes[i]);
      }
    }

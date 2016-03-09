@@ -80,4 +80,18 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .backgroundSW {
+    background: url(../images/backgroundSW.jpg);
+  }
+
+  .policySW{
+    color : yellow;
+    font-family: 'StarWars';
+  }
+
+  @font-face {
+    font-family : 'StarWars';
+    src : url(../font/starjedi/Starhol.tff);
+  }
 }
