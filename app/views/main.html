@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Your favorites Star Wars quotes !</h1>
+
+
+
+  <!-- Quote author input and send query -->
+  <form role="form" ng-submit="generateQuote()">
+    <div class="row">
+      <div class="input-group">
+        <input type="text" ng-model="name" placeholder="You know the character you want a quote from ?" class="form-control">
+        <span class="input-group-btn">
+          <input type="submit" class="btn btn-primary" value="Generate!">
+        </span>
+      </div>
+    </div>
+  </form>
+
+  <!-- Display of the quote -->
+  <div type=container ng-model="quote">
+      <h2>{{quote.quote}}</h2>
+      <h3>{{quote.author}}</h3>
+  </div>
+</div>
